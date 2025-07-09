@@ -1,0 +1,3 @@
+[submodule "mods"]
+	path = mods
+	url = https://hf-mirror.com/datasets/qaz1qazlol/mods_server
