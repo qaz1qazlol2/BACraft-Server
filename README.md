@@ -1,7 +1,7 @@
-# BACraft
-# 想体验最新测试版本请安装git后输入 
-# git clone --recursive https://bgithub.xyz/qaz1qazlol2/BACraft.git
-# Win10及以上（非精简版）使用 winget install Git.Git 来安装git
+# BACraft-Server
+
+# 请注意，这是服务端
+
 整合包主体部分
 
 2024年8月1日：
