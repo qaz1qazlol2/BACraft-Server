@@ -1,0 +1,818 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "21"
+	group: "4DA08CD6EB0E472F"
+	icon: "minecraft:netherrack"
+	id: "119C3FB47E2FA3F0"
+	images: [{
+		height: 8.0d
+		image: "blue_archivescraft:textures/mob_effect/haruka.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 7.5d
+		y: 2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D5438ABA0B90DC8"]
+			description: ["碍于戒指的影响，这些中立生物主动对你发起了攻击。你也无法与猪灵用黄金进行交易了"]
+			id: "4FEEFC8DE6E40F90"
+			rewards: [{
+				id: "417A498A71A9A88B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "这些中立生物变得暴躁起来"
+			tasks: [
+				{
+					entity: "minecraft:zombified_piglin"
+					id: "6BD8D2B0E2D29E33"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:piglin"
+					id: "46525A1DB103DA82"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "“热情”的居民"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D5438ABA0B90DC8"]
+			description: ["找到猪灵堡垒"]
+			id: "104DA4358F119814"
+			rewards: [
+				{
+					id: "40DA71E4FDED765C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "31DA65EC62B1910D"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "0DB0BD0D010456EE"
+				type: "advancement"
+			}]
+			title: "光辉岁月"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D5438ABA0B90DC8"]
+			description: ["找到下界要塞"]
+			id: "624817C22CD9AE9F"
+			rewards: [
+				{
+					id: "3F71560BDCDE4975"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C4EC39529A84EDE"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "6D27CCCB6AD0CBA0"
+				type: "advancement"
+			}]
+			title: "阴森的要塞"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FEEFC8DE6E40F90"]
+			id: "32C6FD82A6BD2F25"
+			rewards: [
+				{
+					id: "6CAFFC1102064A04"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F186FA57FE03D8D"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21DEFCAB63E04D24"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["624817C22CD9AE9F"]
+			id: "2A1987068933C9C2"
+			rewards: [
+				{
+					id: "150A8D74AEE5F102"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6037B75A4A552DE1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "786A265A3700981D"
+					item: "bountifulbaubles:dragon_breath"
+					type: "item"
+				}
+			]
+			subtitle: "击杀烈焰人"
+			tasks: [{
+				id: "3553E89F34CD8E41"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4FEEFC8DE6E40F90"]
+			id: "34241A0883D17CCD"
+			rewards: [
+				{
+					id: "099A03E9B7F56FE5"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "597A56D56AF19497"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E0C09407A7C52ED"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["640F66E4B0C7C168"]
+			id: "663651248B60DCDA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B7DDD1AED3D6B8E"
+					table_id: 7293452712939900517L
+					type: "random"
+				}
+				{
+					id: "50473D209BB0D4BE"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			subtitle: "烧制"
+			tasks: [{
+				id: "1F45B37CAFFB5D81"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["663651248B60DCDA"]
+			id: "197D470FE95F5B1C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "709F29675C315794"
+					table_id: 7293452712939900517L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "349F9E600507C48F"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "15CB3F9309DBB25E"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45F077BA9E86BE06"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&c小心火焰&f，请准备好&b细雪桶&f或&6抗火药水"
+				""
+				"以及，这群“热心”的原住民"
+			]
+			id: "3D5438ABA0B90DC8"
+			rewards: [
+				{
+					id: "53C2A97DA39DD67C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C7A36D9C4FBB675"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CBDF96295A5D76B"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+				{
+					id: "0EC1867BEFBBF58F"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			subtitle: "你来到了这片满是火海的地方"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "54C43E7DB9843578"
+				type: "dimension"
+			}]
+			title: "进入下界"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D5438ABA0B90DC8"]
+			description: ["在下界y坐标&a12-16&f时数量最多，也可以在下界的&6堡垒遗迹&f或&6地牢&f有几率开出"]
+			id: "640F66E4B0C7C168"
+			rewards: [
+				{
+					count: 6
+					id: "6933951171F0AEE7"
+					item: "minecraft:ancient_debris"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "675E317641471F00"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			subtitle: "深藏不露"
+			tasks: [{
+				count: 4L
+				id: "4FF72ED57B9AD06B"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D5438ABA0B90DC8"]
+			id: "26EEA6750F6222C8"
+			rewards: [
+				{
+					id: "27F1754185D26E9A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 4
+					id: "45407836FD652098"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			subtitle: "探险家-下界版"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "5A8AE9BB35701301"
+				type: "advancement"
+			}]
+			title: "下界探险家"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"563E9BFD5FA83232"
+				"197D470FE95F5B1C"
+			]
+			description: ["不是最强，但够用"]
+			id: "3376E258A0D840F9"
+			rewards: [
+				{
+					count: 5
+					id: "0DC6CA2560B46D94"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "67B1BC44EC343BBC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A8290ADC36A30A5"
+					item: "sophisticatedbackpacks:smithing_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "残骸裹身"
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "3F3990DE7BE8E581"
+				title: "装备升级III"
+				type: "advancement"
+			}]
+			title: "下界防具？"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["624817C22CD9AE9F"]
+			id: "165D58D85EE7799D"
+			rewards: [{
+				id: "54F60F46300173EC"
+				item: "enigmaticlegacy:ichor_bottle"
+				type: "item"
+			}]
+			subtitle: "为什么绯红森林的疣块不让分解！！！"
+			tasks: [{
+				count: 16L
+				id: "2C0EEEA0A3EBA8EC"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "酿造必备"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"165D58D85EE7799D"
+				"2A1987068933C9C2"
+			]
+			id: "2F4FDDD4CA6DA784"
+			rewards: [
+				{
+					count: 3
+					id: "37019B8EB2820CBD"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "23DC02B803A105A4"
+					item: "bountifulbaubles:tha_wizard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B7852B4282CFFB5"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			subtitle: "强力药水"
+			tasks: [{
+				id: "2F5F16FBB3C847D2"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "炼金师"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["624817C22CD9AE9F"]
+			icon: "minecraft:nether_bricks"
+			id: "418A3A4A47A6D86E"
+			rewards: [
+				{
+					id: "1858F8D6199DA54A"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0C377674550209CD"
+					item: "minecraft:blaze_rod"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3BC978A41EEDCF77"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "71D7F15979729BF1"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:blaze"
+					id: "587E7ED36101C6A5"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "强袭要塞"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["104DA4358F119814"]
+			icon: "minecraft:chiseled_polished_blackstone"
+			id: "08B74CEB43D3C240"
+			rewards: [
+				{
+					count: 8
+					id: "7C97CE6C6B50C510"
+					item: "minecraft:gold_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1953472C7B562FBF"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "3C2368645C012D15"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3969251CAE661411"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:piglin_brute"
+					id: "18F296EBEE9FB85E"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:piglin"
+					id: "20591376BBFA623C"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "攻占堡垒"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["418A3A4A47A6D86E"]
+			id: "7AD0D5E23A517669"
+			rewards: [
+				{
+					id: "0BC1809CB1ABC112"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "596FA9F78713490E"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7440F08C6F224B05"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3905BA0268FE354C"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "刽子手"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AD0D5E23A517669"]
+			id: "053610A7D970CF56"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64B5695653EAA866"
+					table_id: 6294883545144261954L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3032151BEDB4A80A"
+					table_id: 7362344811821590953L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5619CAEA5B2CFB40"
+					table_id: 424537417769760900L
+					type: "loot"
+				}
+				{
+					id: "5B1B7B8F9DA599B7"
+					item: "blue_archivescraft:mysterious_book"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "677879E8F47C0CBD"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A1B5BA8C40832CC"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D5438ABA0B90DC8"]
+			description: ["由于&c七咒之戒&f的影响，你无法再从猪灵身边交易到末影珍珠。因此，你决定来&b诡异森林&f碰碰运气......"]
+			icon: "minecraft:warped_fungus"
+			id: "4744D69C0C87A190"
+			rewards: [
+				{
+					id: "0F36D3F984C5CEA2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32FE18346C46AF8A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				icon: "minecraft:warped_roots"
+				id: "3A7BB7033AF641D6"
+				title: "找到生物群系：诡异森林"
+				type: "biome"
+			}]
+			title: "寻找诡异森林"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2A1987068933C9C2"
+				"4744D69C0C87A190"
+			]
+			dependency_requirement: "one_completed"
+			description: ["“做好了！”你欢呼着做出了12颗末影之眼，回到了主世界，正当你要丢出去时候......"]
+			id: "156FFDE358CEC7C6"
+			rewards: [
+				{
+					id: "4940DC3A78346587"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3FB0A8C473695443"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B479CFDADB553F9"
+					item: "bountifulbaubles:ender_dragon_scale"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0AA8089E042B6CFE"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "千辛万苦"
+			tasks: [
+				{
+					id: "27726BDD44FCD882"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "1E5AC63A6D6BDE4D"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "获取末影珍珠"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D5438ABA0B90DC8"]
+			description: ["可以使用惊骇水晶驯服boss，或者直接杀死）"]
+			id: "5A7B48DD43F6A487"
+			tasks: [{
+				id: "0BF8D3A71AB10792"
+				title: "1"
+				type: "checkmark"
+			}]
+			title: "注意事项"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"053610A7D970CF56"
+				"3F4A47AC7417FE04"
+			]
+			description: ["探索告一段落了，试着去暮色一趟吧，需要大量的花和一颗钻石"]
+			id: "153480C48C561C45"
+			rewards: [{
+				id: "4842CCBE0C0585B4"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "391A10A16FCB9BE5"
+				title: "探索告一段落"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["197D470FE95F5B1C"]
+			description: [
+				"在地狱的特殊结构中生成传奇猪灵工匠的雕像，用下界合金镐敲击他即可唤醒。"
+				""
+				"得到他的认可，可以得到一套强力的装备。"
+				""
+				"建筑名称：堡垒竞技场"
+			]
+			id: "3F4A47AC7417FE04"
+			rewards: [
+				{
+					count: 4
+					id: "406B636C1B535943"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+				{
+					id: "6409A80AD9B4A857"
+					item: {
+						Count: 1
+						id: "terramity:void_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DCCC210CFEF343C"
+					item: {
+						Count: 1
+						id: "terramity:void_mage_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35D513C7664A9B26"
+					item: {
+						Count: 1
+						id: "terramity:void_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14C83E5966390386"
+					item: {
+						Count: 1
+						id: "terramity:void_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "legionary:unbreakable"
+				icon: "legionary:unbreakable_spawn_egg"
+				id: "19F073608622B4A9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "传奇猪灵工匠"
+			x: -10.0d
+			y: -3.5d
+		}
+	]
+	title: "2.1：诡异的世界"
+}

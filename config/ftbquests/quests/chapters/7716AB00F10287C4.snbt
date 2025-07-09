@@ -1,0 +1,490 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7716AB00F10287C4"
+	group: "365D2B80CD0DEDCA"
+	icon: "kubejs:luguan"
+	id: "7716AB00F10287C4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "kubejs:luguan"
+			id: "6000C4A6AC06009B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/effect give @s minecraft:blindness 204"
+					id: "0025FF57D289B79E"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @s minecraft:slowness 204 255"
+					id: "53C540230C32813D"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound blue_archivescraft:god_apple block @s ~ ~ ~"
+					id: "62C00078A215B1E6"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌🦌"
+			tasks: [{
+				id: "3B760EE20E3F8B18"
+				item: "kubejs:luguan"
+				type: "item"
+			}]
+			title: "水滴"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:beacon"
+			id: "5938B17F63A32909"
+			invisible: true
+			rewards: [{
+				id: "27D1D3E7510FC849"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 100s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 100s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 10s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 10s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "没时间为frank的盗墓精神纪念，接下来到来的是暴力盗墓！"
+			tasks: [
+				{
+					entity: "majruszsdifficulty:cursed_armor"
+					id: "5CFEDD3602F13B18"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:corrupted_pillager"
+					icon: "graveyard:corrupted_pillager_spawn_egg"
+					id: "61C349B012FF116B"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:corrupted_vindicator"
+					icon: "graveyard:corrupted_vindicator_spawn_egg"
+					id: "607137EAEF5C9175"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:ghoul"
+					icon: "graveyard:ghoul_spawn_egg"
+					id: "2AC1373E35AAA685"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:wraith"
+					icon: "graveyard:wraith_spawn_egg"
+					id: "189CC47C771D2607"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "graveyard:nightmare"
+					icon: "graveyard:nightmare_spawn_egg"
+					id: "1AE272F41054BF95"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "弗兰克的盗墓传承"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "5ADAB437F608A24E"
+			invisible: true
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/title @s title \"恭喜你获得了第一个信标，但是该物品无法放置\""
+					id: "2ED773F96A630BF7"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/title @s subtitle \"如果你一不小心放置了信标，而且消失了，你可以按下q键丢出这个消失的信标\""
+					id: "26AA5335B01439D9"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/title @s actionbar \"该信息只显示一次\""
+					id: "5471CE178651A7C4"
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "070F5CCB1784DB1A"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "6CAE4B888CE8ECDF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "27A1C8861C4D1AC0"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/title @p title [{\"text\":\"请观看任务以方便游玩\",\"color\":\"blue\"}]"
+					id: "796216E0E0AF95EC"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @s  \"请使用任务书查看流程~\""
+					elevate_perms: true
+					id: "3F616A17F6AF54C9"
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "70CE3A457FBDCFB2"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "59B8C20C7897E513"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p born_in_chaos_v1:soul_cutlass"
+				id: "3E8FC4CFBABFCBC0"
+				type: "command"
+			}]
+			tasks: [{
+				id: "107F45A28FAC8545"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soul_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "040B28BB9DE98730"
+			invisible: true
+			rewards: [{
+				auto: "no_toast"
+				command: "/clear @p born_in_chaos_v1:soulbane"
+				id: "676974FC0AB2EC22"
+				type: "command"
+			}]
+			tasks: [{
+				id: "180F8F98B87CEEBA"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soulbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "1371A4FD68A3CED3"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p enigmaticaddons:forger_gem"
+				id: "697CDE8A79AB946E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "71008301B2561813"
+				item: "enigmaticaddons:forger_gem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "24A915FA528595F7"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p cataclysm:the_annihilator"
+				id: "0830EA08AA3D23CE"
+				type: "command"
+			}]
+			tasks: [{
+				id: "111387595293070C"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "16261857236ECF5D"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p aquamirae:divider"
+				id: "39698959296E346B"
+				type: "command"
+			}]
+			tasks: [{
+				id: "72FA96C455E08EF6"
+				item: {
+					Count: 1
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "4765825857DA02DD"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p aquamirae:whisper_of_the_abyss"
+				id: "24C8DF8ED8570564"
+				type: "command"
+			}]
+			tasks: [{
+				id: "267559C1EB5F21D6"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2C1D76A8FFAB4F57"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p terramity:chthonic_nectar"
+				id: "3C0C6C3AFC898273"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6F77D579CDD17C4E"
+				item: "terramity:chthonic_nectar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "183B96B01283C672"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p enigmaticaddons:false_justice"
+				id: "788B192A390DE814"
+				type: "command"
+			}]
+			tasks: [{
+				id: "014074D110792042"
+				item: "enigmaticaddons:false_justice"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "5DCCDA1F558F3457"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p enigmaticlegacy:fabulous_scroll"
+				id: "441FA926BC1D9F13"
+				type: "command"
+			}]
+			tasks: [{
+				id: "737F8D6528530726"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "262F66B51BED383C"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p relics:roller_skates"
+				id: "14E46CF78F313A98"
+				type: "command"
+			}]
+			tasks: [{
+				id: "04464F84BE09933E"
+				item: {
+					Count: 1
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 17.36047d
+									speed: 0.00339d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "51F914A6382F7744"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p cataclysm:the_immolator"
+				id: "64559C8F19D2662D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1FC895F09CD1595D"
+				item: "cataclysm:the_immolator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3F729D3A5F8FB29F"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p enigmaticaddons:artificial_flower"
+				id: "485B0F09BE7CD097"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3A8B7714E3E3626F"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:artificial_flower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "3B58B64DD231DF10"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/clear @p potionring:ring_of_resistance"
+				id: "55068E07F679933D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "47C683AB9FF4A6C1"
+				item: "potionring:ring_of_resistance"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+	]
+	title: "开发者的小彩蛋"
+}

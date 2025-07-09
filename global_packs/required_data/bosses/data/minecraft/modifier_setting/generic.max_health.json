@@ -1,0 +1,16 @@
+{
+  "attributeType": "minecraft:generic.max_health",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+    ],
+    "permission": "blacklist"
+  },
+  "enable": false,
+  "modifier": {
+    "operation": "MULTIPLY_TOTAL",
+    "value": 0.5
+  }
+}

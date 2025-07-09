@@ -1,0 +1,60 @@
+{
+	id: "15C996C7EB964958"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:power"
+						lvl: 10s
+					}]
+				}
+			}
+			title: "力量X"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:punch"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "冲击II"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:flame"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "火矢"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:infinity"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "无限(只有弓可用)"
+		}
+	]
+	title: "弓类武器附魔选择"
+}

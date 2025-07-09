@@ -1,0 +1,45 @@
+{
+	icon: "aquaculture:treasure_chest"
+	id: "18057C1E29FF7C2B"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 17
+					GunFireMode: "SEMI"
+					GunId: "tacz:glock_17"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 2
+					GunFireMode: "SEMI"
+					GunId: "tacz:db_long"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 10
+					GunFireMode: "SEMI"
+					GunId: "tacz:sks_tactical"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+	]
+	title: "枪械自选"
+}

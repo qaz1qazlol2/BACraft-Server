@@ -1,0 +1,39 @@
+{
+	icon: "aquaculture:treasure_chest"
+	id: "4FDF4915BA3548A1"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+		}
+		{
+			count: 48
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+		}
+	]
+	title: "子弹盒"
+}

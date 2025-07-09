@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "1.0",
+  "modpackName": "BACraft",
+  "modpackAuthor": "sfhuewui & qaz1qazlol and 小水滴的源头",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://versions.allforhina.com/BACraft/",
+  "advanced": {
+    "bccEnabled": false,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "retroWarning": true,
+    "modpackMods": []
+  }
+}
